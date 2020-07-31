@@ -1,5 +1,5 @@
 let todos = [];
-let selectedFilter = 'completed';
+let selectedFilter = 'all';
 
 const onInputChange = function (e) {
     const todos = fetchTodos();
